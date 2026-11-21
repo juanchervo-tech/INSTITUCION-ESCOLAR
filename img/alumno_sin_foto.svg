@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 210" role="img" aria-labelledby="title">
+  <title id="title">Alumno sin fotografía</title>
+  <rect width="180" height="210" rx="8" fill="#e9ecef"/>
+  <circle cx="90" cy="72" r="34" fill="#adb5bd"/>
+  <path d="M28 190c4-42 28-66 62-66s58 24 62 66" fill="#adb5bd"/>
+</svg>

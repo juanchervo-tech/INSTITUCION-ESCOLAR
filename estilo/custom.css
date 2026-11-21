@@ -1,0 +1,57 @@
+/* Colores Institucionales y Personalización */
+:root {
+    --color-primario: #004085;
+    --color-secundario: #17a2b8;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f3ec;
+}
+
+header {
+    background-color: var(--color-primario);
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    border-bottom: 2px solid #e9ecef;
+}
+
+/* Efectos en botones y tarjetas */
+.btn-primary {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #002752;
+    border-color: #002752;
+    transform: translateY(-2px);
+}
+
+.card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer img {
+    transition: transform 0.2s ease;
+}
+
+footer img:hover {
+    transform: scale(1.15);
+}
